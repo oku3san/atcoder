@@ -33,5 +33,5 @@ func main() {
     }
   }
   // 合計を表示
-  println(total)
+  fmt.Println(total)
 }
