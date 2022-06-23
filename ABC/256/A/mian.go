@@ -10,4 +10,8 @@ func main() {
   var N = new(big.Int)
   fmt.Scan(N)
   fmt.Println(N.Exp(Y, N, nil))
+
+  //    var N float64
+  //    fmt.Scan(&N)
+  //    fmt.Println(int(math.Pow(2,N)))
 }
